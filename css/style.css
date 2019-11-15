@@ -3,7 +3,7 @@
 }
 
 body {
-  background: url("../img/main_bg3.jpg") center center/cover no-repeat;
+  background: url("../img/main_bg4.jpg");
 }
 
 nav {
@@ -30,6 +30,7 @@ nav {
   font-weight: 300;
   line-height: 20px;
   text-transform: uppercase;
+  width: 100%;
   color: #FFFFFF;
 }
 
@@ -39,13 +40,12 @@ nav {
 }
 
 .menu_active {
-  background-color: #FFE9BD;
+  background-color: #fff3da;
   color: #252525;
 }
 
 .menu_item {
   display: block;
-  padding: 0 143px;
   padding-top: 13px;
   height: 46px;
   border-left: 2px solid #555555;
@@ -59,12 +59,12 @@ nav {
 }
 
 .menu_item:hover {
-  background-color: #FFE9BD;
+  background-color: #fff3da;
   color: #252525;
 }
 
 .header {
-  height: 50px;
+  min-height: 50px;
   background-color: #323232c7;
   padding-top: 7px;
 }
@@ -93,8 +93,8 @@ nav {
 
 .main {
   margin-top: 40px;
-  background-color: #FFE9BD;
-  min-height: 800px;
+  background-color: #fff3da;
+  min-height: 470px;
   border: 2px solid #555555;
   -webkit-box-shadow: 0 0 15px 4px #000000;
           box-shadow: 0 0 15px 4px #000000;
